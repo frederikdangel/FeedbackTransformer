@@ -1,6 +1,8 @@
 # FeedbackTransformer
 
 Modularization of:
+
+```python
 @misc{patil2021-feedback-github,
     author       = {Rajaswa Patil},
     title        = {feedback-and-memory-in-transformers},
@@ -9,9 +11,11 @@ Modularization of:
     publisher    = {Github},
     url          = "https://github.com/rajaswa/feedback-and-memory-in-transformers"
     }
-    
+```
+
 implementing
 
+```python
 @misc{fan2021addressing,
       title={Addressing Some Limitations of Transformers with Feedback Memory}, 
       author={Angela Fan and Thibaut Lavril and Edouard Grave and Armand Joulin and Sainbayar Sukhbaatar},
@@ -20,9 +24,11 @@ implementing
       archivePrefix={arXiv},
       primaryClass={cs.LG}
 }
+```
 
 and using the COGS Benchmark:
 
+```python
 @inproceedings{kim-linzen-2020-cogs,
     title = "{COGS}: A Compositional Generalization Challenge Based on Semantic Interpretation",
     author = "Kim, Najoung  and
@@ -37,3 +43,4 @@ and using the COGS Benchmark:
     pages = "9087--9105",
     abstract = "Natural language is characterized by compositionality: the meaning of a complex expression is constructed from the meanings of its constituent parts. To facilitate the evaluation of the compositional abilities of language processing architectures, we introduce COGS, a semantic parsing dataset based on a fragment of English. The evaluation portion of COGS contains multiple systematic gaps that can only be addressed by compositional generalization; these include new combinations of familiar syntactic structures, or new combinations of familiar words and familiar structures. In experiments with Transformers and LSTMs, we found that in-distribution accuracy on the COGS test set was near-perfect (96{--}99{\%}), but generalization accuracy was substantially lower (16{--}35{\%}) and showed high sensitivity to random seed (+-6{--}8{\%}). These findings indicate that contemporary standard NLP models are limited in their compositional generalization capacity, and position COGS as a good way to measure progress.",
 }
+```
